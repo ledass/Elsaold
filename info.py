@@ -44,7 +44,7 @@ class evamaria(Client):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '11824466'))
 API_HASH = environ.get('API_HASH', '5afd3ea9d0018ed654ae39a87aee62c7')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7899174765:AAEkm47ZxN1o5Bj9zHKf1IenQfPAc8qfS-k')
+BOT_TOKEN = environ.get('BOT_TOKEN', '8152674590:AAHqEds3H7zLY5rLEylw-qh9T0uNyPGkGYk')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -74,10 +74,10 @@ TMP_DOWNLOAD_DIRECTORY = environ.get("TMP_DOWNLOAD_DIRECTORY", "./DOWNLOADS/")
 COMMAND_HAND_LER = environ.get("COMMAND_HAND_LER", "/")
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Advanced2008:Advanced2008@cluster0.6nbzvid.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://elsa2008:elsa2008@cluster0.pz39mgm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-MONGO_URL = os.environ.get('MONGO_URL', "mongodb+srv://Advanced2008:Advanced2008@cluster0.6nbzvid.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_URL = os.environ.get('MONGO_URL', "mongodb+srv://elsa2008:elsa2008@cluster0.pz39mgm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 #Downloader
 DOWNLOAD_LOCATION = environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
