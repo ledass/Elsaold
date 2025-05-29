@@ -480,4 +480,5 @@ async def settings(client, message):
             disable_web_page_preview=True,
             parse_mode=enums.ParseMode.HTML,
             reply_to_message_id=message.id
+        )
    
